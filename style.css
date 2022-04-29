@@ -1,0 +1,255 @@
+*
+{
+    font-family: 'Times New Roman';
+}
+body{
+    margin: 0;
+    background-color: white !important;
+}
+.container a{
+    color: #174870;
+    text-decoration: none;
+}
+.section-padding{
+    padding: 50px 0;
+}
+.navbar{
+   
+  background-color: white !important;
+}
+.navbar .navbar-brand{
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.navbar-nav > li{
+    margin-left:15px;
+    margin-right:15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+.navbar-nav a{
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight:20px;
+   word-wrap: normal;
+   
+
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: black;
+}
+.nav-item a:hover{
+  
+    color: rgb(18, 222, 18) !important;
+   
+}
+.nav-items i{
+    background-color:black;
+border-radius: 50%;
+border: 1px solid rgb(125, 116, 116);
+padding: 4px;
+width: 25px !important;
+}
+.nav-items i:hover{
+     border: none;
+    background-color:blue !important;
+}
+.navbar-light .navbar-nav .navbar-link{
+    color: black;
+}
+.w-100{
+    height: 100vh;
+}
+.service .card-body i{
+    font-size: 50px;
+}
+.team .card-body{
+    font-size: 20px;
+
+}
+.cerificate{
+    max-height: 120px;
+    display: flex;
+    justify-content: space-around;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+.cerificate::-webkit-scrollbar-button
+{
+    width: 0;
+}
+.cerificate .factory-certify{
+    min-width: 110px;
+    height: 300px;
+    line-height: 60px;
+    text-align: center;
+
+}
+@media only screen and (max-width:767px){
+    .cerificate{
+    
+        display: flex;
+        justify-content: space-around;
+        overflow-x: auto;
+        overflow-y: hidden;
+    
+    }
+    .cerificate::-webkit-scrollbar-button
+    {
+        width: 0;
+    }
+    .cerificate .factory-certify{
+        min-width: 110px;
+        height: 300px;
+        line-height: 60px;
+        text-align: center;
+    
+    }
+}
+.hline{
+    width: 70px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: rgb(66, 205, 66);
+    margin: 16px auto 0 auto;
+}
+
+.intro{
+     
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    background-image: url("images/iStock-475414937.jpg");
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    opacity: 0.8;
+    transition: .5s ease;
+  }
+  
+.card:hover .intro {
+    bottom: 0;
+    height: 100%;
+    
+
+  }
+.team .card a{
+text-decoration: none; 
+    color: rgb(104, 92, 92);
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+  top: 50%;
+    left:10%;
+}
+.card-text{
+    color:black;
+    font-size: 10px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 10%;
+}
+#footer {
+    
+
+    height: 20px;
+    margin: 0 auto;
+    color: #555555;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 13px;
+    padding: 10px;
+    position: relative;
+    font-weight: bold;
+   
+}
+#footer a{
+    text-decoration: none;
+   
+   
+    height: 20px;
+    margin: 0 auto;
+    color: #555555;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 13px;
+    padding: 10px;
+    position: relative;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:767px){
+    .navbar-nav{
+        text-align: center;
+    }
+   
+    .about-text{
+        padding-top: 50px;
+
+    }
+    .card{
+        margin-bottom: 30px;
+
+    }
+}
+/*Services*/
+.banner{
+    position: relative;
+    text-align: center;
+    color:white;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/2.jpg);
+    background-repeat: no-repeat;          
+    background-size:cover;
+    padding: 100px;
+ 
+}
+.wedo li a{
+    text-decoration: none;
+    color: #555555;
+  
+
+}
+.wedo ul{
+    list-style-type: none;
+}
+.wedo li a:hover{
+    color:rgb(20, 185, 29);
+}
+.card  h5 a{
+    text-decoration: none;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+text-transform: uppercase;
+    
+}
+.content .card{
+    background-image:linear-gradient(rgba(70, 66, 66, 0.5),rgba(61, 58, 58, 0.5)), url(images/2.jpg);
+  
+}
+/*product*/
+.collections .card h5 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.link li a{
+    text-decoration: none;
+    color: #555555;
+    
+}
+.link ul{
+    list-style-type: none;
+}
+.link li a:hover{
+    color:rgb(20, 185, 29);
+}
+
