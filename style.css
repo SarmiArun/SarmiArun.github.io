@@ -59,6 +59,8 @@ padding-left: 8px;
 width: 30px !important;
 }
 .nav-items i:hover{
+    font-size: 16px;
+padding-top: 5px;
      border: none;
     background-color:rgb(0, 179, 255) !important;
 }
