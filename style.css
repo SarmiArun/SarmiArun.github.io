@@ -226,12 +226,12 @@ padding-top: 5px;
   }
 #infrastructure .card a{
 text-decoration: none; 
-    color: rgb(15, 13, 13);
+    color: rgb(42, 95, 19);
     font-size: 20px;
     position: absolute;
     overflow: hidden;
-  top: 50%;
-    left:20%;
+  top: 10%;
+    left:25%;
 }
 .card-text{
     color:black;
