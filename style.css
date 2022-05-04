@@ -5,6 +5,7 @@
 body{
     margin: 0;
     background-color: white !important;
+    overflow-wrap: break-word;
 }
 .container a{
     color: #174870;
@@ -132,6 +133,7 @@ padding-top: 5px;
     left: 0;
     right: 0;
     background: url("images/knit.jpg");
+    background-repeat: no-repeat;
     background-size: 192px 250px;
     overflow: hidden;
     width: 100%;
@@ -146,6 +148,7 @@ padding-top: 5px;
     left: 0;
     right: 0;
     background: url("images/about.jpg");
+    background-repeat: no-repeat;
     background-size: 190px 250px;
     overflow: hidden;
     width: 100%;
@@ -160,6 +163,7 @@ padding-top: 5px;
     left: 0;
     right: 0;
     background: url("images/iStock-475414937.jpg");
+    background-repeat: no-repeat;
     background-size: 190px 250px;
     overflow: hidden;
     width: 100%;
@@ -174,6 +178,7 @@ padding-top: 5px;
     left: 0;
     right: 0;
     background: url("images/emb.jpg");
+    background-repeat: no-repeat;
     background-size: 190px 250px;
     overflow: hidden;
     width: 100%;
@@ -188,6 +193,7 @@ padding-top: 5px;
     left: 0;
     right: 0;
     background: url("images/iStock-157674818.jpg");
+    background-repeat: no-repeat;
     background-size: 190px 250px;
     overflow: hidden;
     width: 100%;
@@ -272,6 +278,9 @@ text-decoration: none;
     .about-text{
         padding-top: 50px;
 
+    }
+    .carousel{
+        max-width: 100%;
     }
     .card{
         margin-bottom: 30px;
