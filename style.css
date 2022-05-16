@@ -111,105 +111,8 @@ padding-top: 5px;
     background-color: rgb(80, 131, 9);
     margin: 16px auto 0 auto;
 }
-
-.intro-1{
-     
-    position: absolute;
-    bottom: 10%;
-    left: 0;
-    right: 0;
-    background: url("images/istockphoto-523623252-612x612.jpg");
-    background-repeat: no-repeat;
-    background-size: 192px 250px;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    opacity: 1;
-    transition: .5s ease;
-  }
-  .intro-2{
-     
-    position: absolute;
-    bottom: 10%;
-    left: 0;
-    right: 0;
-    background: url("images/istockphoto-477849499-612x612.jpg");
-    background-repeat: no-repeat;
-    background-size: 190px 250px;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    opacity: 1;
-    transition: .5s ease;
-  }
-  .intro-3{
-     
-    position: absolute;
-    bottom: 10%;
-    left: 0;
-    right: 0;
-    background: url("images/istockphoto-1179027542-612x612.jpg");
-    background-repeat: no-repeat;
-    background-size: 190px 250px;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    opacity: 1;
-    transition: .5s ease;
-  }
-  .intro-4{
-     
-    position: absolute;
-    bottom: 10%;
-    left: 0;
-    right: 0;
-    background: url("images/istockphoto-843488278-612x612.jpg");
-    background-repeat: no-repeat;
-    background-size: 190px 250px;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    opacity: 1;
-    transition: .5s ease;
-  }
-  .intro-5{
-     
-    position: absolute;
-    bottom: 10%;
-    left: 0;
-    right: 0;
-    background: url("images/istockphoto-647577210-612x612.jpg");
-    background-repeat: no-repeat;
-    background-size: 190px 250px;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    opacity: 1;
-    transition: .5s ease;
-  }
-  
-  
    
-.card:hover .intro-1 {
-    bottom: 0;
-    height: 100%;
-  }
-  .card:hover .intro-2 {
-    bottom: 0;
-    height: 100%;
-  }
-  .card:hover .intro-3 {
-    bottom: 0;
-    height: 100%;
-  }
-  .card:hover .intro-4 {
-    bottom: 0;
-    height: 100%;
-  }
-  .card:hover .intro-5 {
-    bottom: 0;
-    height: 100%;
-  }
+
 #infrastructure .card a{
 text-decoration: none; 
     color: rgb(42, 95, 19);
@@ -231,7 +134,8 @@ text-decoration: none;
     
 
     height: 20px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0 ;
     color: #555555;
     font-family: "Times New Roman", Times, serif;
     font-size: 13px;
@@ -245,7 +149,7 @@ text-decoration: none;
    
    
     height: 20px;
-    margin: 0 auto;
+    margin: 0 ;
     color: #555555;
     font-family: "Times New Roman", Times, serif;
     font-size: 13px;
