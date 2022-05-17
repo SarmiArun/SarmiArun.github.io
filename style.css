@@ -135,14 +135,15 @@ text-decoration: none;
 
     height: 20px;
     width: 100%;
-    margin: 0 ;
     color: #555555;
     font-family: "Times New Roman", Times, serif;
     font-size: 13px;
-    padding: 10px;
+    padding: 0;
+    padding-top: -10px;
+    margin-bottom: 20px;
     position: relative;
     font-weight: bold;
-    margin-bottom: 20px;
+    
 }
 #footer .com-links{
     position: relative;
@@ -160,11 +161,13 @@ text-decoration: none;
 
 #footer a{
     text-decoration: none;
+    padding: 10px;
     color: #555555;
     font-family: "Times New Roman", Times, serif;
     font-size: 13px;
     position: relative;
     font-weight: bold;
+  
 }
 
 @media only screen and (max-width:767px){
