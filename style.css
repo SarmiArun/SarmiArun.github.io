@@ -142,8 +142,22 @@ text-decoration: none;
     padding: 10px;
     position: relative;
     font-weight: bold;
+    margin-bottom: 20px;
+}
+#footer .com-links{
+    position: relative;
+    margin-left: -20px ;
+    justify-content: flex-start;
+}
+#footer .copyright{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+    margin-left: 20px;
    
 }
+
 #footer a{
     text-decoration: none;
    
