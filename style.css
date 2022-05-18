@@ -194,9 +194,9 @@ text-decoration: none;
     position: relative;
     text-align: center;
     color:white;
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/istockphoto-1305756002-612x612.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/iStock-1196392582.jpg);
     background-repeat: no-repeat;          
-    background-size:2100px 800px;
+    background-size:100% 100%;
     padding: 100px;
  
 }
