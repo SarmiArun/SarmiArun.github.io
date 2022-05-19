@@ -250,4 +250,7 @@ text-transform: uppercase;
     border: 1px solid #CCC;
     box-shadow: 0px 0px 3px #cccccc;
 }
-
+.catogeries #listing_single li{
+    margin-right: 10px;
+    margin-left: 10px;
+}
