@@ -254,3 +254,6 @@ text-transform: uppercase;
     margin-right: 10px;
     margin-left: 10px;
 }
+.catogeries li:hover{
+  color:rgba(217,126,81,255) ;
+}
