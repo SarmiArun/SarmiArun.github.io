@@ -232,23 +232,21 @@ text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
 }
-.link li a{
-    text-decoration: none;
-    color: #555555;
+.bullet {
+    list-style-image: url(images/bullet.jpg);
+    padding-left: 5px;
+    font-size: 1.0em;
+    color: #666;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 45px;
+    cursor: pointer;
+    text-align: justify
 }
-.links li a{
-    text-decoration: none;
-    color: #555555;
+.bullet:hover{
+    list-style-image: url(images/bullet1.jpg);
+    color: #000;
 }
-.link li:hover{
-    color:#932411;
-}
-.links li a:hover{
-    color:black;
-}
-.links li:hover{
-    color:#26a369;
-}
+
 #input {
     width: 200px;
     padding: 8px;
