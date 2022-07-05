@@ -235,13 +235,19 @@ text-decoration: none;
 .link li a{
     text-decoration: none;
     color: #555555;
-    
 }
-.link ul{
-    list-style-type: none;
+.links li a{
+    text-decoration: none;
+    color: #555555;
 }
-.link li a:hover{
-    color:rgb(20, 185, 29);
+.link li:hover{
+    color:#932411;
+}
+.links li a:hover{
+    color:black;
+}
+.links li:hover{
+    color:#26a369;
 }
 #input {
     width: 200px;
@@ -261,4 +267,7 @@ text-decoration: none;
     .navbar-light .navbar-toggle{
         margin-right: 50px;
     }
+    .service img{
+        width: 75% !important;
+            }
 }
