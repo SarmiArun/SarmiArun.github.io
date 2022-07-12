@@ -80,121 +80,249 @@
   <section>
     <section id="infra" class="infra section-padding">
       <div class="container ">
+     
+ <div class="heading  mb-5 ">
+        <h4 style="color: #484848;margin-left: 150px;">Our Products</h4>
+        </div>
+        <style>
+    
       
-    <style>
-        .filterDiv {
-          float: left;
-          background-color: #2196F3;
-          color: #ffffff;
-          width: 100px;
-          line-height: 100px;
-          text-align: center;
-          margin: 2px;
-          display: none;
-        }
-        
-        .show {
-          display: block;
-        }
-        
-        .container {
-          margin-top: 20px;
-          overflow: hidden;
-        }
-        
-        /* Style the buttons */
-        .btn {
-          border: none;
-          outline: none;
-          padding: 12px 16px;
-          background-color: #f1f1f1;
-          cursor: pointer;
-        }
-        
-        .btn:hover {
-          background-color: #ddd;
-        }
-        
-        .btn.active {
-          background-color: #666;
-          color: white;
-        }
-        </style>
-        <body>
-        
-        <h2>Our Products</h2>
-        
-        <div id="myBtnContainer">
-          <button class="btn active" onclick="filterSelection('all')"> All Items</button>
-          <button class="btn" onclick="filterSelection('T-Shirts')"> T-Shirts</button>
-          <button class="btn" onclick="filterSelection('Jackets')"> Jackets</button>
-          <button class="btn" onclick="filterSelection('Shorts')"> Shorts</button>
-          <button class="btn" onclick="filterSelection('Pajamas')"> Pajamas</button>
-        </div>
-        
-        <div class="container">
-          <div class="filterDiv T-Shirts">BMW</div>
-          <div class="filterDiv Jackets Shorts">Orange</div>
-          <div class="filterDiv T-Shirts">Volvo</div>
-          <div class="filterDiv Jackets">Red</div>
-          <div class="filterDiv T-Shirts Pajamas">Mustang</div>
-          <div class="filterDiv Jackets">Blue</div>
-          <div class="filterDiv Pajamas">Cat</div>
-          <div class="filterDiv Pajamas">Dog</div>
-          <div class="filterDiv Shorts">Melon</div>
-          <div class="filterDiv Shorts Pajamas">Kiwi</div>
-          <div class="filterDiv Shorts">Banana</div>
-          <div class="filterDiv Shorts">Lemon</div>
-          <div class="filterDiv Pajamas">Cow</div>
-        </div>
-        
-        <script>
-        filterSelection("all")
-        function filterSelection(c) {
-          var x, i;
-          x = document.getElementsByClassName("filterDiv");
-          if (c == "all") c = "";
-          for (i = 0; i < x.length; i++) {
-            w3RemoveClass(x[i], "show");
-            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+          /* Center website */
+          .main {
+            max-width: 1000px;
+            margin: auto;
           }
-        }
-        
-        function w3AddClass(element, name) {
-          var i, arr1, arr2;
-          arr1 = element.className.split(" ");
-          arr2 = name.split(" ");
-          for (i = 0; i < arr2.length; i++) {
-            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+       
+          .row {
+            margin: 10px -16px;
           }
-        }
+          
+ 
+          .row,
+          .row > .column {
+            padding: 8px;
+          }
+          
+    
+          .column {
+            float: left;
+            width: 20%;
+            display: none; 
+          }
+          
+
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          
+
+          .content {
+            background-color: white;
+            padding: 10px;
+          }
+          
+          
+          .show {
+            display: block;
+          }
+          
+          .btn {
+            border: none;
+            outline: none;
+            padding: 12px 16px;
+            color: #555;
+            background-color: white;
+            cursor: pointer;
+            box-shadow: none;
+          }
+          .btn:active,
+ .btn:focus,
+ .btn.active {
+   background-image: none;
+   outline: 0;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+ }
+         
+          
+          .btn.active {
+            background-color: #555;
+            color: white;
+          }
+          </style>
+       
+          
+    
+          <div class="main">
+          
+          
+          <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> All Product</button>
+            <button class="btn" onclick="filterSelection('t-shirt')">T-Shirts</button>
+            <button class="btn" onclick="filterSelection('shorts')">Shorts</button>
+            <button class="btn" onclick="filterSelection('jacket')">Outer Jacket</button>
+            <button class="btn" onclick="filterSelection('pajamas')">Pajamas</button>
         
-        function w3RemoveClass(element, name) {
-          var i, arr1, arr2;
-          arr1 = element.className.split(" ");
-          arr2 = name.split(" ");
-          for (i = 0; i < arr2.length; i++) {
-            while (arr1.indexOf(arr2[i]) > -1) {
-              arr1.splice(arr1.indexOf(arr2[i]), 1);     
+          </div>
+          
+
+          <div class="row">
+            <div class="column t-shirt">
+              <div class="content">
+                <img src="images/full sleev tshirt.jpg" alt="Mountains" style="width:100%">
+                
+              </div>
+            </div>
+           
+            <div class="column t-shirt">
+              <div class="content">
+              <img src="images/coller.jpg" alt="Nature" style="width:100%">
+              
+              </div>
+            </div>
+            
+            <div class="column t-shirt">
+              <div class="content">
+                <img src="images/round neck.jpg" alt="Car" style="width:100%">
+            
+              </div>
+            </div>
+            <div class="column t-shirt">
+              <div class="content">
+              <img src="images/tops.jpg" alt="Car" style="width:100%">
+          
+              </div>
+            </div>
+            <div class="column t-shirt">
+              <div class="content">
+              <img src="images/hooded.png" alt="Lights" style="width:100%">
+              
+              </div>
+            </div>
+            <div class="column t-shirt">
+              <div class="content">
+              <img src="images/v neck.jpg" alt="Car" style="width:100%">
+                
+              </div>
+            </div>
+            <div class="column t-shirt">
+              <div class="content">
+                <img src="images/hood.jpg" alt="Mountains" style="width:100%">
+                
+              </div>
+            </div>
+            <div class="column pajamas">
+              <div class="content">
+                <img src="images/pajamas.jpg" alt="Mountains" style="width:100%">
+                
+              </div>
+            </div>
+            <div class="column pajamas">
+              <div class="content">
+              <img src="images/nightshut.jpg" alt="Lights" style="width:100%">
+              
+              </div>
+            </div>
+            <div class="column shorts">
+              <div class="content">
+              <img src="images/rombers.jpg" alt="Car" style="width:100%">
+          
+              </div>
+            </div>
+            <div class="column shorts">
+              <div class="content">
+              <img src="images/shorts.jpg" alt="Car" style="width:100%">
+                
+              </div>
+            </div>
+          
+            <div class="column shorts">
+              <div class="content">
+              <img src="images/2.jpg" alt="Nature" style="width:100%">
+              
+              </div>
+            </div>
+            
+            <div class="column shorts">
+              <div class="content">
+                <img src="images/short1.jpg" alt="Car" style="width:100%">
+            
+              </div>
+            </div>
+            
+            <div class="column shorts">
+              <div class="content">
+                <img src="images/shorts2.jpg" alt="Car" style="width:100%">
+          
+              </div>
+            </div>
+            <div class="column jacket">
+              <div class="content">
+              <img src="images/outerjac.jpg" alt="Car" style="width:100%">
+        
+              </div>
+            </div>
+          
+          <!-- END GRID -->
+          </div>
+          
+          <!-- END MAIN -->
+          </div>
+          
+          <script>
+          filterSelection("all")
+          function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("column");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+              w3RemoveClass(x[i], "show");
+              if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
             }
           }
-          element.className = arr1.join(" ");
-        }
-        
-        // Add active class to the current button (highlight it)
-        var btnContainer = document.getElementById("myBtnContainer");
-        var btns = btnContainer.getElementsByClassName("btn");
-        for (var i = 0; i < btns.length; i++) {
-          btns[i].addEventListener("click", function(){
-            var current = document.getElementsByClassName("active");
-            current[0].className = current[0].className.replace(" active", "");
-            this.className += " active";
-          });
-        }
-        </script>
-</div>
+          
+          function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+              if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+            }
+          }
+          
+          function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+              while (arr1.indexOf(arr2[i]) > -1) {
+                arr1.splice(arr1.indexOf(arr2[i]), 1);     
+              }
+            }
+            element.className = arr1.join(" ");
+          }
+          
+          
+          // Add active class to the current button (highlight it)
+          var btnContainer = document.getElementById("myBtnContainer");
+          var btns = btnContainer.getElementsByClassName("btn");
+          for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function(){
+              var current = document.getElementsByClassName("active");
+              current[0].className = current[0].className.replace(" active", "");
+              this.className += " active";
+            });
+          }
+          </script>
+    
+       
+      
+          </div>
+    
     </section>
-
+   
                   
 <div class="container">
   <div class="pt-1" style="border-top: 2px solid  #174971;">
