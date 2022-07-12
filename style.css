@@ -39,7 +39,9 @@ body{
    
 
 }
-
+.navbar-toggler{
+ font-size: 12px;
+}
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover{
     color: black;
@@ -170,12 +172,12 @@ text-decoration: none;
   
 }
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:767px) and (min-width: 300px){
     .navbar-nav{
         text-align: center;
     }
     .navbar-toggler{
-        margin-right: 20px;
+        margin-right: 100px;
     }
     .about-text{
         padding-top: 50px;
@@ -188,6 +190,27 @@ text-decoration: none;
         margin-bottom: 30px;
 
     }
+    .carousel-caption{
+        margin-left: 100px;
+        word-wrap: break-word 
+        !important;
+    }
+    .card-img-overlay{
+margin-right: 300px;
+    }
+}
+@media only screen and (max-width:990px) and (min-width: 767px){
+    
+    .carousel-caption h3{
+        margin-left: 100px;
+        word-wrap: break-word !important;
+    }
+    .card-img-overlay{
+        margin-right: 500px;
+            }
+            .card{
+                margin-bottom: 20px;
+            }
 }
 /*Services*/
 .banner{
@@ -234,7 +257,7 @@ text-decoration: none;
 }
 .bullet {
     list-style-image: url(images/bullet.jpg);
-    padding-left: 5px;
+    padding-left: 15px;
     font-size: 1.0em;
     color: #666;
     font-family: "Times New Roman", Times, serif;
