@@ -198,12 +198,139 @@ text-decoration: none;
     .card-img-overlay{
 margin-right: 300px;
     }
+    
 }
-@media only screen and (max-width:990px) and (min-width: 767px){
+
+@media only screen and (max-width:450px) and (min-width: 300px){
+    .coll-md-4{
+        flex: 0;
+        width: 100%;
+    }
+    .coll-md-6{
+        flex: 0;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+       
+    .carousel-caption h3{
+        margin-left: -250px !important;
+        font-size: 15px;
+     
+    }
+    .about-img{
+        margin-bottom: 20px;
+    } .about-img img{
+        width: 330px 
+        !important;
+        height: 150px !important;
+    }.banner{
+        position: relative;
+        text-align: center;
+        color:white;
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/iStock-1308102356.jpg);
+        background-repeat: no-repeat;          
+        background-size:100% 100%;
+        padding: 100px;
+     
+    }.section-header{
+        padding-right: 30px;
+    }
+
+}
+@media only screen and (max-width:550px) and (min-width: 350px){
+    .coll-md-4{
+        flex: 0;
+        width: 100%;
+    }
+    .coll-md-6{
+        flex: 0;
+        width: 100%;
+    }
+       
+    .carousel-caption h3{
+        margin-left: -250px !important;
+        font-size: 15px;
+     
+    }  .about-img{
+        margin-bottom: 20px;
+    } .about-img img{
+        width: 330px 
+        !important;
+        height: 120px !important;
+    }.banner{
+        position: relative;
+        text-align: center;
+        color:white;
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/iStock-1308102356.jpg);
+        background-repeat: no-repeat;          
+        background-size:100% 100%;
+        padding: 100px;
+     
+    }.section-header{
+        padding-right: 30px;
+    }
+
+}
+@media only screen and (max-width:767px) and (min-width: 550px){
+    .coll-md-4{
+        flex: 0;
+        width: 100%;
+    }
+    .coll-md-6{
+        flex: 0;
+        width: 100%;
+    }
+       
+    .carousel-caption h3{
+        margin-left: -200px !important;
+        font-size: 20px;
+     
+    }  .about-img{
+        margin-bottom: 20px;
+    }
+    .banner{
+        position: relative;
+        text-align: center;
+        color:white;
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/iStock-1308102356.jpg);
+        background-repeat: no-repeat;          
+        background-size:100% 100%;
+        padding: 100px;
+     
+    }
+   
+   .about-img img{
+        width: 450px 
+        !important;
+        height: 220px !important;
+    }
+}
+@media only screen and (max-width:1200px) and (min-width: 998px){
+    .coll-md-4{
+        flex: 0;
+        width: 50%;
+    }
+    .coll-md-6{
+        flex: 0;
+        width: 100%;
+    }
+    .card{
+        margin-left: 20px !important;
+    }
+    .about-img img{
+        width: 450px 
+        !important;
+        height:320px !important;
+    }
+}
+
+@media only screen and (max-width:998px) and (min-width: 767px){
     
     .carousel-caption h3{
-        margin-left: 100px;
-        word-wrap: break-word !important;
+        margin-left: -200px !important;
+        font-size: 20px;
+     
     }
     .card-img-overlay{
         margin-right: 500px;
@@ -211,7 +338,40 @@ margin-right: 300px;
             .card{
                 margin-bottom: 20px;
             }
-}
+            .banner{
+                position: relative;
+                text-align: center;
+                color:white;
+                background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/iStock-1308102356.jpg);
+                background-repeat: no-repeat;          
+                background-size:100% 100%;
+                padding: 100px;
+             
+            }
+            .contact{
+                float: none;
+                padding-right: 200px;
+            }
+            .coll-md-4{
+                flex: 0;
+                width: 50%;
+            }
+            .coll-md-6{
+                flex: 0;
+                width: 100%;
+            }
+            .img-area{
+                padding-left: 80px;
+            }
+            .about-img{
+                margin-bottom: 20px;
+            } .about-img img{
+                width: 400px 
+                !important;
+                height:300px !important;
+            }
+            }
+           
 /*Services*/
 .banner{
     position: relative;
