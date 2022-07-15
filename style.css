@@ -172,211 +172,6 @@ text-decoration: none;
     font-weight: bold;
   
 }
-
-@media only screen and (max-width:767px) and (min-width: 300px){
-    .navbar-nav{
-        text-align: center;
-    }
-    .navbar-toggler{
-        margin-right: 100px;
-    }
-    .about-text{
-        padding-top: 50px;
-
-    }
-    .carousel{
-        max-width: 100%;
-    }
-    .card{
-        margin-bottom: 30px;
-
-    }
-    .carousel-caption{
-        margin-left: 100px;
-        word-wrap: break-word 
-        !important;
-    }
-    .card-img-overlay{
-margin-right: 300px;
-    }
-    
-}
-
-@media only screen and (max-width:450px) and (min-width: 300px){
-    .row{
-        margin: 0 !important;
-    }
-    .coll-md-4{
-        flex: 0;
-        width: 100%;
-    }
-    .coll-md-6{
-        flex: 0;
-        width: 100%;
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-       
-    .carousel-caption h3{
-        margin-left: -250px !important;
-        font-size: 15px;
-     
-    }
-    .about-img{
-        margin-bottom: 20px;
-    } .about-img img{
-        width: 330px 
-        !important;
-        height: 150px !important;
-    }.banner{
-        position: relative;
-        text-align: center;
-        color:white;
-        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/iStock-1308102356.jpg);
-        background-repeat: no-repeat;          
-        background-size:100% 100%;
-        padding: 100px;
-     
-    }.section-header{
-        padding-right: 30px;
-    }
-
-}
-@media only screen and (max-width:550px) and (min-width: 350px){
-    .coll-md-4{
-        flex: 0;
-        width: 100%;
-    }
-    .coll-md-6{
-        flex: 0;
-        width: 100%;
-    }
-       
-    .carousel-caption h3{
-        margin-left: -250px !important;
-        font-size: 15px;
-     
-    }  .about-img{
-        margin-bottom: 20px;
-    } .about-img img{
-        width: 330px 
-        !important;
-        height: 120px !important;
-    }.banner{
-        position: relative;
-        text-align: center;
-        color:white;
-        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/iStock-1308102356.jpg);
-        background-repeat: no-repeat;          
-        background-size:100% 100%;
-        padding: 100px;
-     
-    }.section-header{
-        padding-right: 30px;
-    }
-
-}
-@media only screen and (max-width:767px) and (min-width: 550px){
-    .coll-md-4{
-        flex: 0;
-        width: 100%;
-    }
-    .coll-md-6{
-        flex: 0;
-        width: 100%;
-    }
-       
-    .carousel-caption h3{
-        margin-left: -200px !important;
-        font-size: 20px;
-     
-    }  .about-img{
-        margin-bottom: 20px;
-    }
-    .banner{
-        position: relative;
-        text-align: center;
-        color:white;
-        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/iStock-1308102356.jpg);
-        background-repeat: no-repeat;          
-        background-size:100% 100%;
-        padding: 100px;
-     
-    }
-   
-   .about-img img{
-        width: 450px 
-        !important;
-        height: 220px !important;
-    }
-}
-@media only screen and (max-width:1200px) and (min-width: 998px){
-    .coll-md-4{
-        flex: 0;
-        width: 50%;
-    }
-    .coll-md-6{
-        flex: 0;
-        width: 100%;
-    }
-    .card{
-        margin-left: 20px !important;
-    }
-    .about-img img{
-        width: 450px 
-        !important;
-        height:320px !important;
-    }
-}
-
-@media only screen and (max-width:998px) and (min-width: 767px){
-    
-    .carousel-caption h3{
-        margin-left: -200px !important;
-        font-size: 20px;
-     
-    }
-    .card-img-overlay{
-        margin-right: 500px;
-            }
-            .card{
-                margin-bottom: 20px;
-            }
-            .banner{
-                position: relative;
-                text-align: center;
-                color:white;
-                background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/iStock-1308102356.jpg);
-                background-repeat: no-repeat;          
-                background-size:100% 100%;
-                padding: 100px;
-             
-            }
-            .contact{
-                float: none;
-                padding-right: 200px;
-            }
-            .coll-md-4{
-                flex: 0;
-                width: 60%;
-            }
-            .coll-md-6{
-                flex: 0;
-                width: 100%;
-            }
-            .img-area{
-                padding-left: 80px;
-            }
-            .about-img{
-                margin-bottom: 20px;
-            } .about-img img{
-                width: 400px 
-                !important;
-                height:300px !important;
-            }
-            }
-           
-/*Services*/
 .banner{
     position: relative;
     text-align: center;
@@ -446,6 +241,260 @@ margin-right: 300px;
     margin-left: 10px;
 
 }
+
+
+
+@media only screen and (max-width:450px) and (min-width: 300px){
+    .row{
+        margin: 0 !important;
+    }
+    .coll-md-4{
+        flex: 0;
+        width: 100%;
+    }
+    .coll-md-6{
+        flex: 0;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+       
+    .carousel-caption h3{
+        margin-left: -250px !important;
+        font-size: 15px;
+     
+    }
+    .about-img{
+        margin-bottom: 20px;
+    } .about-img img{
+        width: 330px 
+        !important;
+        height: 150px !important;
+    }.banner{
+        position: relative;
+        text-align: center;
+        color:white;
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/iStock-1308102356.jpg);
+        background-repeat: no-repeat;          
+        background-size:100% 100%;
+        padding: 100px;
+     
+    }.section-header{
+        padding-right: 30px;
+    }
+
+}
+@media only screen and (max-width:550px) and (min-width: 350px){
+    .coll-md-4{
+        flex: 0;
+        width: 100%;
+    }
+    .coll-md-6{
+        flex: 0;
+        width: 100%;
+    }
+    .carousel-item img{
+        max-height: 40vh !important;
+        background-size: contain;
+        padding-top: 100px;
+    }
+       
+    .carousel-caption h3{
+        margin-left: -250px !important;
+        font-size: 15px;
+     
+    }  .about-img{
+        margin-bottom: 20px;
+    } .about-img img{
+        width: 330px 
+        !important;
+        height: 120px !important;
+    }.banner{
+        position: relative;
+        text-align: center;
+        color:white;
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/iStock-1308102356.jpg);
+        background-repeat: no-repeat;          
+        background-size:100% 100%;
+        padding: 100px;
+     
+    }.section-header{
+        padding-right: 30px;
+    }
+    .card-img-overlay h6{
+        margin-left: 40px;
+            }
+            #input {
+                width: 150px !important;
+                padding: 8px;
+                border-radius: 2px;
+                border: 1px solid #CCC;
+                box-shadow: 0px 0px 3px #cccccc
+            }
+            .map img{
+                width: 400px;
+                height: 150px;
+            }
+
+}
+
+@media only screen and (max-width:767px) and (min-width: 300px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-toggler{
+        margin-right: 100px;
+    }
+    .about-text{
+        padding-top: 50px;
+
+    }
+    .carousel{
+        max-width: 100%;
+    }
+    .card{
+        margin-bottom: 30px;
+
+    }
+    .carousel-caption{
+        margin-left: 100px;
+        word-wrap: break-word 
+        !important;
+    }
+    .card-img-overlay{
+margin-right: 300px;
+    }
+    
+}
+@media only screen and (max-width:767px) and (min-width: 550px){
+    .coll-md-4{
+        flex: 0;
+        width: 100%;
+    }
+    .coll-md-6{
+        flex: 0;
+        width: 100%;
+    }
+       
+    .carousel-caption h3{
+        margin-left: -200px !important;
+        font-size: 20px;
+     
+    }  .about-img{
+        margin-bottom: 20px;
+    }
+    .card-img-overlay{
+        margin-right: 500px;
+            }
+    .banner{
+        position: relative;
+        text-align: center;
+        color:white;
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/iStock-1308102356.jpg);
+        background-repeat: no-repeat;          
+        background-size:100% 100%;
+        padding: 100px;
+     
+    }
+    .carousel-item img{
+        max-height: 40vh !important;
+        background-size: contain;
+        padding-top: 100px;
+    }
+   
+   .about-img img{
+        width: 450px 
+        !important;
+        height: 220px !important;
+    }
+}
+
+@media only screen and (max-width:998px) and (min-width: 767px){
+    
+    .carousel-caption h3{
+        margin-left: -200px !important;
+        font-size: 20px;
+     
+    }
+    .carousel-item img{
+        max-height: 60vh !important;
+        background-size: contain;
+        padding-top: 100px;
+    }
+    .card-img-overlay{
+        margin-right: 500px;
+            }
+            .card{
+                margin-bottom: 20px;
+            }
+            .banner{
+                position: relative;
+                text-align: center;
+                color:white;
+                background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/iStock-1308102356.jpg);
+                background-repeat: no-repeat;          
+                background-size:100% 100%;
+                padding: 100px;
+             
+            }
+            .contact{
+                float: none;
+                padding-right: 200px;
+            }
+            .coll-md-4{
+                flex: 0;
+                width: 60%;
+            }
+            .coll-md-6{
+                flex: 0;
+                width: 100%;
+            }
+            .img-area{
+                padding-left: 80px;
+            }
+            .about-img{
+                margin-bottom: 20px;
+            } .about-img img{
+                width: 400px 
+                !important;
+                height:300px !important;
+            }
+            }
+           
+@media only screen and (max-width:1200px) and (min-width: 998px){
+    .coll-md-4{
+        flex: 0;
+        width: 50%;
+    }
+    .coll-md-6{
+        flex: 0;
+        width: 100%;
+    }
+    .card{
+        margin-left: 20px !important;
+    }
+    .about-img img{
+        width: 450px 
+        !important;
+        height:320px !important;
+    }
+    .carousel-item img{
+        max-height: 80vh !important;
+        background-size: contain;
+        padding-top: 100px;
+    }
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 100% !important;
+    }
+  .map{
+    margin-left: -20px !important;
+  }
+    }
+
+
+/*Services*/
+
 @media only screen and (max-width:767px){
     .navbar-light .navbar-toggle{
         margin-right: 50px;
