@@ -241,7 +241,10 @@ text-decoration: none;
     margin-left: 10px;
 
 }
-
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
 
 
 @media only screen and (max-width:450px) and (min-width: 300px){
