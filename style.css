@@ -210,7 +210,7 @@ text-decoration: none;
 .collections .card h5 a{
     text-decoration: none;
     color: black;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman';
     margin-left: 40px;
     text-transform: uppercase;
     font-weight: bold;
@@ -220,12 +220,26 @@ text-decoration: none;
     padding-left: 15px;
     font-size: 1.0em;
     color: #666;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman";
     line-height: 45px;
     cursor: pointer;
     text-align: justify
 }
 .bullet:hover{
+    list-style-image: url(images/bullet1.jpg);
+    color: #000;
+}
+.bullets {
+    list-style-image: url(images/bullet.jpg);
+    padding-left: 15px;
+    font-size: 1.0em;
+    color: #666;
+    font-family: "Times New Roman";
+    line-height: 45px;
+    cursor: pointer;
+    text-align: justify
+}
+.bullets:hover{
     list-style-image: url(images/bullet1.jpg);
     color: #000;
 }
@@ -248,6 +262,18 @@ text-decoration: none;
 }
 
 
+@media only screen and (max-width:350px) and (min-width: 300px){
+    .banner{
+        position: relative;
+        text-align: center;
+        color:white;
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/iStock-1308102356.jpg);
+        background-repeat: no-repeat;          
+        background-size:120% 100%;
+        padding: 100px;
+     
+    }
+}
 @media only screen and (max-width:450px) and (min-width: 300px){
     .row{
         margin: 0 !important;
@@ -256,6 +282,11 @@ text-decoration: none;
         flex: 0;
         width: 100%;
     }
+    .coll-md-3 {
+        flex: 0 0 auto;
+        width: 50%;
+        margin-left: 30px !important;
+     }
     .coll-md-6{
         flex: 0;
         width: 100%;
@@ -274,7 +305,13 @@ text-decoration: none;
         width: 330px 
         !important;
         height: 150px !important;
-    }.banner{
+    }
+    .abouts-img img{
+        width: 250px 
+        !important;
+        height: 150px !important;
+    }
+    .banner{
         position: relative;
         text-align: center;
         color:white;
@@ -293,23 +330,37 @@ text-decoration: none;
     .section-padding{
         padding-top:-50px !important;
     }
-
+    .card-img-overlay{
+        margin-right: 180px !important;
+            }
+            .infra{
+                margin-left: 10px !important;
+            }
 }
 @media only screen and (max-width:550px) and (min-width: 350px){
     .coll-md-4{
         flex: 0;
         width: 100%;
+        margin-left: 50px;
     }
     .coll-md-6{
         flex: 0;
         width: 100%;
+        margin-left: 50px;
     }
     .carousel-item img{
         max-height: 40vh !important;
         background-size: contain;
         padding-top: 100px;
     }
-       
+    .ul{
+        padding: 10px !important;
+    }
+    .coll-md-3 {
+        flex: 0 0 auto;
+        width: 50%;
+        margin-left: 30px !important;
+     }
     .carousel-caption h3{
         margin-left: -250px !important;
         font-size: 15px;
@@ -317,7 +368,7 @@ text-decoration: none;
     }  .about-img{
         margin-bottom: 20px;
     } .about-img img{
-        width: 330px 
+        width: 300px 
         !important;
         height: 120px !important;
     }.banner{
@@ -331,10 +382,43 @@ text-decoration: none;
      
     }.section-header{
         padding-right: 30px;
+        padding: 0 !important;
     }
-    .card-img-overlay h6{
-        margin-left: 40px;
+    .section-header h4 {
+        padding: 0;
+        margin-left: 150px !important;
+    }
+    .hlinei{
+        margin-left:150px !important;
+    }
+    .section-headers h4 {
+        padding: 0;
+        margin-left:-150px !important;
+    }
+    .section-headero h4 {
+        padding: 0;
+        margin-left:70px !important;
+    }
+    .section-headerc h4 {
+        padding: 0;
+        margin-left:70px !important;
+    }
+    .hlinecc{
+        margin-left:-120px !important;
+    }
+    .hlineco{
+        margin-left:150px !important;
+    }
+    .hlineccl{
+        margin-left:130px !important;
+    }
+    .infra{
+        margin-left: 130px;
+    }
+    .card-img-overlay{
+        margin-right: 180px;
             }
+            
             #input {
                 width: 150px !important;
                 padding: 8px;
@@ -358,16 +442,16 @@ text-decoration: none;
 }
 
 @media only screen and (max-width:767px) and (min-width: 300px){
+    body{
+         overflow-x:hidden !important;
+        }
     .navbar-nav{
         text-align: center;
     }
     .navbar-toggler{
-        margin-right: 100px;
+        margin-right: 250px;
     }
-    .about-text{
-        padding-top: 50px;
-
-    }
+  
     .carousel{
         max-width: 100%;
     }
@@ -375,15 +459,54 @@ text-decoration: none;
         margin-bottom: 30px;
 
     }
+ 
     .carousel-caption{
         margin-left: 100px;
         word-wrap: break-word 
         !important;
     }
-    .card-img-overlay{
-margin-right: 300px;
+    .section-header{
+        padding: 0 !important;
+        margin: 0 !important;
     }
-    
+    #footer .copyright{
+        margin-right: 100px !important;
+    }
+    .coll-md-3 {
+        flex: 0 0 auto;
+        width:100%;
+     
+         }
+         .coll-md-2 {
+            flex: 0 0 auto;
+            width: 100%;
+      
+             }
+             .bullets{
+                margin:0 !important;
+             }
+             .ul{
+                padding: 10px !important;
+            }
+}
+
+@media only screen and (max-width:450px) and (min-width: 320px){
+    .pages a{
+        font-size: 11px !important;
+        margin: 5px !important;
+      
+    }
+    .section-header{
+          margin-left: -70px;  
+    }
+    .ul{
+        padding: 10px !important;
+    }
+}
+@media only screen and (max-width:550px) and (min-width: 450px){
+    .pages a{
+        font-size: 15px !important;
+    }
 }
 @media only screen and (max-width:767px) and (min-width: 550px){
     .coll-md-4{
@@ -394,7 +517,24 @@ margin-right: 300px;
         flex: 0;
         width: 100%;
     }
-       
+    .coll-md-12{
+        flex:0 0 auto;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .pages a{
+        font-size: 18px !important;
+    }
+    .coll-md-12{
+        flex:0 0 auto;
+        width: 100% !important;
+    }
+    .ul{
+        padding: 10px !important;
+    }
+    .hlinecc{
+        margin-left:20px !important;
+    }
     .carousel-caption h3{
         margin-left: -200px !important;
         font-size: 20px;
@@ -403,7 +543,7 @@ margin-right: 300px;
         margin-bottom: 20px;
     }
     .card-img-overlay{
-        margin-right: 500px;
+        margin-right: 180px;
             }
     .banner{
         position: relative;
@@ -414,6 +554,16 @@ margin-right: 300px;
         background-size:100% 100%;
         padding: 100px;
      
+    }
+    .section-padding{
+        padding: 0;
+    }
+    .section-header h4 {
+        padding: 0;
+        margin-left: 200px !important;
+    }
+    .hlinei{
+        margin-left:200px !important;
     }
     .carousel-item img{
         max-height: 40vh !important;
@@ -426,7 +576,50 @@ margin-right: 300px;
         !important;
         height: 220px !important;
     }
+    .abouts-img img{
+        width: 450px 
+        !important;
+        height: 320px !important;
+    }
+   
+    .infra{
+        margin-left: 130px;
+    }
+    .map{
+        margin: 0 !important;
+    }
+    .Categories{
+        margin-left: -350px !important;
+    }
+    .coll-md-3 {
+        flex: 0 0 auto;
+        width: 50%;
+        padding: 0;
+     
+         }
+         .coll-md-3 {
+            flex: 0 0 auto;
+            width: 50%;
+            margin-left: -10px !important;
+         }
+         .coll-md-2 {
+            flex: 0 0 auto;
+            width: 50%;
+      
+             }
+             .bullets{
+                margin:0 !important;
+             }
 }
+@media (min-width: 992px){
+    body{
+        overflow-x: hidden !important ;
+    }
+.navbar-expand-lg .navbar-nav {
+flex-direction: row;
+MARGIN-RIGHT: 80px;
+}
+ }
 
 @media only screen and (max-width:998px) and (min-width: 767px){
     
@@ -435,13 +628,20 @@ margin-right: 300px;
         font-size: 20px;
      
     }
+    .coll-md-12{
+        flex:0 0 auto;
+        width: 100% !important;
+    }
+    .coll-md-3  ul{
+        padding: 0 !important;
+     }
     .carousel-item img{
         max-height: 60vh !important;
         background-size: contain;
         padding-top: 100px;
     }
     .card-img-overlay{
-        margin-right: 500px;
+        margin-right: 300px;
             }
             .card{
                 margin-bottom: 20px;
@@ -456,6 +656,7 @@ margin-right: 300px;
                 padding: 100px;
              
             }
+            
             .contact{
                 float: none;
                 padding-right: 200px;
@@ -463,9 +664,10 @@ margin-right: 300px;
             .coll-md-4{
                 flex: 0;
                 width: 100%;
+                margin-left: 100PX;
             }
             #input {
-                width: 100px;
+                width: 180px;
                 padding: 8px;
                 border-radius: 2px;
                 border: 1px solid #CCC;
@@ -476,7 +678,7 @@ margin-right: 300px;
                 width: 100%;
             }
             .img-area{
-                padding-left: 80px;
+                padding-left: 150px;
             }
             .about-img{
                 margin-bottom: 20px;
@@ -488,9 +690,42 @@ margin-right: 300px;
             .infra{
                 margin-left: 180px;
             }
+            .map{
+                margin: 0 !important;
+            }
+        /* .ul{
+            margin-left: 150px;
+        } */
+        .coll-md-3 {
+            flex: 0 0 auto;
+            width: 50%;
+         
              }
-           
+             .coll-md-2 {
+                flex: 0 0 auto;
+                width: 50%;
+          
+                 }
+                 .bullets{
+                    margin:0 !important;
+                 }
+                }
+               
 @media only screen and (max-width:1200px) and (min-width: 998px){
+    body{
+        overflow-x: hidden !important ;
+    }
+.navbar-expand-lg .navbar-nav {
+flex-direction: row;
+MARGIN-RIGHT: 20px;
+}
+.coll-md-12{
+    flex:0 0 auto;
+    width: 100% !important;
+}
+.col-mdd-3{
+    
+}
     .coll-md-4{
         flex: 0;
         width: 50%;
@@ -505,7 +740,7 @@ margin-right: 300px;
     .about-img img{
         width: 450px 
         !important;
-        height:320px !important;
+        height:380px !important;
     }
     .carousel-item img{
         max-height: 80vh !important;
@@ -519,6 +754,21 @@ margin-right: 300px;
   .map{
     margin-left: -20px !important;
   }
+  .coll-md-3 {
+    flex: 0 0 auto;
+    width: 50%;
+     }
+     .coll-md-3  ul{
+        padding: 0 !important;
+     }
+     .coll-md-3 {
+        flex: 0 0 auto;
+        width: 50%;
+         }
+     .coll-md-2 {
+        flex: 0 0 auto;
+        width: 50%;
+         }
     }
 .infra img{
     margin-left: 10px;
@@ -526,9 +776,6 @@ margin-right: 300px;
     width: 180px;
     height: 180px;
 }
-.card-img-overlay h6{
-    margin-left: 20px;
-        }
 
 /*Services*/
 
