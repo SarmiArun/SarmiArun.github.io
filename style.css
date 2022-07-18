@@ -86,6 +86,7 @@ padding-top: 5px;
 
 }
 
+
 @media only screen and (max-width:767px){
     .cerificate{
     
@@ -131,7 +132,7 @@ text-decoration: none;
     position: absolute;
     overflow: hidden;
     top: 50%;
-    left: 10%;
+    left: 5%;
 }
 #footer {
     
@@ -285,6 +286,13 @@ text-decoration: none;
     }.section-header{
         padding-right: 30px;
     }
+    .map img{
+        width: 400px;
+        height: 150px;
+    }
+    .section-padding{
+        padding-top:-50px !important;
+    }
 
 }
 @media only screen and (max-width:550px) and (min-width: 350px){
@@ -334,10 +342,18 @@ text-decoration: none;
                 border: 1px solid #CCC;
                 box-shadow: 0px 0px 3px #cccccc
             }
-            .map img{
-                width: 400px;
+            .map img{ margin-left: 70px;
+                width: 300px;
                 height: 150px;
             }
+.map{
+    margin: 0 !important;
+    width: 100%;
+    margin-left: -80px !important;
+}
+.section-padding{
+    padding: 0 !important;
+}
 
 }
 
@@ -446,7 +462,14 @@ margin-right: 300px;
             }
             .coll-md-4{
                 flex: 0;
-                width: 60%;
+                width: 100%;
+            }
+            #input {
+                width: 100px;
+                padding: 8px;
+                border-radius: 2px;
+                border: 1px solid #CCC;
+                box-shadow: 0px 0px 3px #cccccc;
             }
             .coll-md-6{
                 flex: 0;
@@ -462,7 +485,10 @@ margin-right: 300px;
                 !important;
                 height:300px !important;
             }
+            .infra{
+                margin-left: 180px;
             }
+             }
            
 @media only screen and (max-width:1200px) and (min-width: 998px){
     .coll-md-4{
@@ -494,7 +520,15 @@ margin-right: 300px;
     margin-left: -20px !important;
   }
     }
-
+.infra img{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 180px;
+    height: 180px;
+}
+.card-img-overlay h6{
+    margin-left: 20px;
+        }
 
 /*Services*/
 
