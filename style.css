@@ -60,7 +60,7 @@ font-size: 13.7px;
 width: 29px;
 height: 25px;
 padding-bottom: 20px !important;
-padding-top: 5px;
+padding-top: 7px;
 padding-left: 8px;
 
 }
@@ -260,7 +260,34 @@ text-decoration: none;
     filter: grayscale(100%);
     transform: scale(1.1);
 }
-
+.icon-bar {
+    position: fixed;
+    left:95%;
+    top: 90%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .whatsapp {
+    background: #174971;
+    color: white;
+    border-radius:50%;
+  }
+  
 
 @media only screen and (max-width:350px) and (min-width: 300px){
     .banner{
@@ -285,7 +312,7 @@ text-decoration: none;
     .coll-md-3 {
         flex: 0 0 auto;
         width: 50%;
-        margin-left: 30px !important;
+        /* margin-left: 30px !important; */
      }
     .coll-md-6{
         flex: 0;
@@ -320,8 +347,11 @@ text-decoration: none;
         background-size:100% 100%;
         padding: 100px;
      
-    }.section-header{
-        padding-right: 30px;
+    }.section-header h3{
+       margin-left: 110px !important;
+    }
+    .section-header .hlinepr{
+        margin-left: 125px !important;
     }
     .map img{
         width: 400px;
@@ -341,7 +371,7 @@ text-decoration: none;
     .coll-md-4{
         flex: 0;
         width: 100%;
-        margin-left: 50px;
+        margin-left: 10px;
     }
     .coll-md-6{
         flex: 0;
@@ -356,10 +386,13 @@ text-decoration: none;
     .ul{
         padding: 10px !important;
     }
+    #footer .copyright{
+        margin-right: 50px !important;
+    }
     .coll-md-3 {
         flex: 0 0 auto;
         width: 50%;
-        margin-left: 30px !important;
+        /* margin-left: 30px !important; */
      }
     .carousel-caption h3{
         margin-left: -250px !important;
@@ -367,11 +400,19 @@ text-decoration: none;
      
     }  .about-img{
         margin-bottom: 20px;
-    } .about-img img{
+    }.about-img img{
+        width:300px 
+        !important;
+        height: 120px !important;
+        margin-left: 20px;
+    }
+    .abouts-img img{
         width: 300px 
         !important;
         height: 120px !important;
-    }.banner{
+        margin-left: 20px !important;
+    }
+   .banner{
         position: relative;
         text-align: center;
         color:white;
@@ -383,6 +424,10 @@ text-decoration: none;
     }.section-header{
         padding-right: 30px;
         padding: 0 !important;
+    }
+    .section-headercl h4 {
+        padding: 0;
+      margin-left:-60px !important;
     }
     .section-header h4 {
         padding: 0;
@@ -411,6 +456,11 @@ text-decoration: none;
     }
     .hlineccl{
         margin-left:130px !important;
+    }  .hlinecl{
+        margin-left:-30px !important;
+    }
+    .clientt{
+        margin-left: 15px;
     }
     .infra{
         margin-left: 130px;
@@ -449,7 +499,11 @@ text-decoration: none;
         text-align: center;
     }
     .navbar-toggler{
-        margin-right: 250px;
+        margin-right: 20px;
+    }
+    .nav-items i{
+        padding-top: 8px;
+        padding-left:0 !important ;
     }
   
     .carousel{
@@ -469,14 +523,15 @@ text-decoration: none;
         padding: 0 !important;
         margin: 0 !important;
     }
-    #footer .copyright{
-        margin-right: 100px !important;
-    }
+  
     .coll-md-3 {
         flex: 0 0 auto;
         width:100%;
      
          }
+         .clientt{
+            margin-left: 15px;
+        }
          .coll-md-2 {
             flex: 0 0 auto;
             width: 100%;
@@ -521,6 +576,9 @@ text-decoration: none;
         flex:0 0 auto;
         width: 100% !important;
         margin: 0 !important;
+    }
+    #footer .copyright{
+        margin-right: 100px !important;
     }
     .pages a{
         font-size: 18px !important;
@@ -575,11 +633,13 @@ text-decoration: none;
         width: 450px 
         !important;
         height: 220px !important;
+        margin-left: 20px;
     }
     .abouts-img img{
         width: 450px 
         !important;
         height: 320px !important;
+        margin-left: 20px !important;
     }
    
     .infra{
@@ -617,7 +677,7 @@ text-decoration: none;
     }
 .navbar-expand-lg .navbar-nav {
 flex-direction: row;
-MARGIN-RIGHT: 80px;
+
 }
  }
 
@@ -627,6 +687,9 @@ MARGIN-RIGHT: 80px;
         margin-left: -200px !important;
         font-size: 20px;
      
+    }
+    .clientt{
+        margin-left: 15px;
     }
     .coll-md-12{
         flex:0 0 auto;
